@@ -1,0 +1,34 @@
+.sketch-holder {
+    margin-top: 10vh !important;
+    background-color: black;
+    padding: 10px;
+}
+
+.navigation{
+    padding: 10px;
+}
+
+.sketch-holder, .navigation {
+    margin: auto;
+    width: fit-content;
+}
+
+.button-icon {
+    color: white;
+}
+
+.navigation>button {
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+}
+
+.navigation>button:hover {
+    background-color: rgb(92, 92, 92);
+}
+
+.navigation>button ,.sketch-holder  {
+    border: 1px solid white;
+    border-radius: 5px;
+}
