@@ -30,7 +30,7 @@ export class MainViewPortComponent implements OnInit {
       currentSketch.setup = () => {
         currentSketch.noCanvas();
         this.video = currentSketch.createCapture(currentSketch.VIDEO);
-        this.video.size(120, 45);
+        this.video.size(150,45);
       };
 
       currentSketch.draw = () => {
